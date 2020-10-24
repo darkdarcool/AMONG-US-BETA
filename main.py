@@ -1,5 +1,5 @@
 import os,random, time
-import poetry
+
 
 
 #colors
@@ -23,11 +23,9 @@ bwhite = "\033[0;97m"
 
 time.sleep(1)
 os.system('clear')
-print(bwhite + 'Hello players! This is the Among Us beta game!! Updates will be constant updates to this game! The map will NOT be exact, but will almost be. Type any to begin the game!')
+print(bwhite + 'Hello players! This is the Among Us beta game!! Updates will be constant updates to this game! The map will NOT be exact, but will almost be. Type any key to begin the game!')
 
 blank = ' '
 inpt = input('')
-if inpt == blank:
-  os.system("python3 home.py")
-elif input != blank:
+if input != blank:
 	os.system("python3 home.py")
