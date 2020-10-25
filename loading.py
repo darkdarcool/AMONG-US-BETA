@@ -1,6 +1,7 @@
 import time, os, random
 def clear():
   os.system('clear')
+clear()
 def load():
   os.system('clear')
   print("Waiting")
@@ -48,5 +49,43 @@ def load():
   print("Joining...")
   time.sleep(.5)
   clear()
-load()
+def peps():
+  print('CHOOSE:')
+  print('\n')
+  print('a) Join plz     (5,  10)')
+  print('b) Not pewdz    (7,  10)')
+  print('c) darkdarcool  (9,  10)')
+  print('d) VMTU         (0,  10)')
+  print('e) CODER MAN    (2,  10)')
+  choo = input(' \n ')
+  if choo == "a":
+    print('')
+    load()
+    os.system("python3 ci.py")
+  if choo == "b":
+    print('')
+    load()
+    os.system("python3 ci.py")
+  if choo == "c":
+    print('')
+    load()
+    os.system("python3 ci.py")
+  if choo == "d":
+    print('')
+    load()
+    os.system("python3 ci.py")
+  if choo == "e":
+    print('')
+    load()
+    os.system("python3 ci.py")
+  else: 
+    print('INVALID')
+    time.sleep(2)
+    os.system('clear')
+    peps()
+  
+  
+peps()
+
+
 os.system("python3 ci.py")
